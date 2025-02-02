@@ -1,5 +1,6 @@
 pipeline {
     agent any
+
 environment {
         GITHUB_REPO = 'https://github.com/Hadakar-Kasturi/Ekart_mine.git'
     }
