@@ -1,8 +1,7 @@
 pipeline {
     agent any
 environment {
-        GITHUB_REPO = 'https://github.com/your-username/your-repo.git'
-        BUILD_DIR = 'build'
+        GITHUB_REPO = 'https://github.com/Hadakar-Kasturi/Ekart_mine.git'
     }
 
     stages {
