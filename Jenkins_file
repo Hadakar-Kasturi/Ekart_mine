@@ -14,6 +14,7 @@ pipeline {
         PATH = "$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH"  // Ensure Maven and Java are in the PATH 
     } */
 
+
     stages {
         stage('Git checkout') {
             steps {
